@@ -1,0 +1,99 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+<title>天气</title>
+<meta name="keywords" content="俄语,资源,博客, HTML, CSS">
+<meta name="description" content="欢迎来到ISCC！我们是您的资源分享和俄语学习中心。探索丰富多彩的学习资源，提升您的俄语技能，同时获得有价值的学习资料。无论您是俄语初学者还是高级学习者，我们都为您提供了灵活且有趣的学习工具和内容，助您踏上俄语之旅。">
+<link rel="stylesheet" type="text/css" href="../css/style.css">
+<link rel="Shortcut Icon" href="../images/favicon.ico" type="image/x-icon">
+<script src="../js/jquery.min.js"></script>
+<script src="../js/jquery-2.1.4.min.js"></script>
+<script src="../js/nprogress.js"></script>
+<script src="../js/font_pop_up.js" type="text/javascript"></script><!--点击文字弹出效果-->
+<script>
+    // 保存滚动位置到localStorage
+    window.addEventListener('scroll', function() {
+      const scrollPosition = window.scrollY || window.pageYOffset;
+      localStorage.setItem('scrollPosition', scrollPosition);
+    });
+
+    // 恢复滚动位置
+    window.addEventListener('load', function() {
+      const savedScrollPosition = localStorage.getItem('scrollPosition');
+      if (savedScrollPosition) {
+        window.scrollTo(0, savedScrollPosition);
+      }
+    });
+  </script>
+</head>
+
+<nav class="navbar navbar-default" id="navbar">
+<div class="container">
+
+<div class="navbar-header"><!--首页头logo-->
+  <h1 class="logo"><a href="../index.html">
+    <img src="../images/favicon.png" width="100%" height="100%"></a></h1>
+</div>
+
+</nav>
+</header>
+<section class="container" text-align: center; >
+
+<p><h2>Как сегодня на улице? </h2></p>
+<p><h2>Какая погода на улице?  </h2></p>
+<p><h2>Как на улице? </h2></p>
+
+<p><h1>第一类</h1></p>
+<p><h2>1) Солнечно  天气晴朗，有太阳</h2></p>
+<p><h2>2) Дождливо 天下着雨</h2></p>
+<p><h2>3) Ветренно   刮着风</h2></p>
+<p><h2>4) Туманно    有雾</h2></p>
+<p><h2>5) Морозно   天气很冷</h2></p>
+<p><h1>例如：</h1></p>
+<p><h2>A: - Как сегодня на улице?   外面的天气怎么样？</h2></p>
+<p><h2>B: – Солнечно  (дождливо, ветренно, туманно, морозно). <>天气晴朗 （下着雨，刮着风，下着雾，天气很冷）</h2></p>
+
+<p><h1>第二类</h1></p>
+<p><h2>1) Солнце  太阳</h2></p>
+<p><h2>2) Дождь   下雨</h2></p>
+<p><h2>3) Ветер    刮风</h2></p>
+<p><h2>4) Туман   雾天</h2></p>
+<p><h2>5) Мороз   寒冷</h2></p>
+<p><h2>6) Снег      下雪</h2></p>
+<p><h2>7) Град      冰雹</h2></p>
+<p><h2>8) Иней      霜</h2></p>
+<p><h2>9) Лёд         结冰</h2></p>
+<p><h2>10) Тайфун 台风</h2></p>
+<p><h1>例如：</h1></p>
+<p><h2>A: - Какая погода на улице?  外面天气怎么样？</h2></p>
+<p><h2>B: – На улице солнце . 外面的天气有太阳。</h2></p>
+ 
+ 
+<p><h1>第三类</h1></p>
+<p><h2>1) Жарко  炎热</h2></p>
+<p><h2>2) Холодно 寒冷</h2></p>
+<p><h2>3) Тепло  暖和</h2></p>
+<p><h2>4) Прохладно  凉爽</h2></p>
+<p><h2>5) Душно  闷热</h2></p>
+<p><h2>例如：</h2></p>
+<p><h2>A: - Как на улице? 外面天气怎么样？</h2></p>
+<p><h2>B: - Жарко  炎热</h2></p>
+
+<p><h1>Погода:天气</h1></p>
+<p><h2>1) Какая завтра погода?</h2></p>
+  <p><h2>  明天的天气怎么样？</h2></p>
+<p><h2>2) Завтра будет дождь или нет?</h2></p>
+  <p><h2>  明天会不会下雨？</h2></p>
+<p><h2>3) Сегодня очень холодно.</h2></p>
+ <p><h2>   今天很冷.</h2></p>
+
+
+
+<div id="gotop"><a class="gotop"></a></div>
+<iframe src="footer.html" frameborder="0" width="100%" height="220px"></iframe>
+
+
+
+<script src="../js/scripts.js"></script>
+</body>
+</html>

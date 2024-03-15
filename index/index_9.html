@@ -1,0 +1,74 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+<title>蔬菜、水果</title>
+<meta name="keywords" content="俄语,资源,博客, HTML, CSS">
+<meta name="description" content="欢迎来到ISCC！我们是您的资源分享和俄语学习中心。探索丰富多彩的学习资源，提升您的俄语技能，同时获得有价值的学习资料。无论您是俄语初学者还是高级学习者，我们都为您提供了灵活且有趣的学习工具和内容，助您踏上俄语之旅。">
+<link rel="stylesheet" type="text/css" href="../css/style.css">
+<link rel="Shortcut Icon" href="../images/favicon.ico" type="image/x-icon">
+<script src="../js/jquery.min.js"></script>
+<script src="../js/jquery-2.1.4.min.js"></script>
+<script src="../js/nprogress.js"></script>
+<script src="../js/font_pop_up.js" type="text/javascript"></script><!--点击文字弹出效果-->
+<script>
+    // 保存滚动位置到localStorage
+    window.addEventListener('scroll', function() {
+      const scrollPosition = window.scrollY || window.pageYOffset;
+      localStorage.setItem('scrollPosition', scrollPosition);
+    });
+
+    // 恢复滚动位置
+    window.addEventListener('load', function() {
+      const savedScrollPosition = localStorage.getItem('scrollPosition');
+      if (savedScrollPosition) {
+        window.scrollTo(0, savedScrollPosition);
+      }
+    });
+  </script>
+</head>
+
+<nav class="navbar navbar-default" id="navbar">
+<div class="container">
+
+<div class="navbar-header"><!--首页头logo-->
+  <h1 class="logo"><a href="../index.html">
+    <img src="../images/favicon.png" width="100%" height="100%"></a></h1>
+</div>
+
+</nav>
+</header>
+
+<table  id="table" style="margin: 0 auto; text-align: center; font-size: 30px;">
+<caption style="font-size: 30px;">本文章中的翻译由谷歌翻译提供。</caption>
+  <tr><th>物品名称</th><th>俄语名称</th><th>物品名称</th><th>俄语名称</th></tr>
+
+<tr><td>蔬菜</td><td>овощ</td><td>水果</td><td>фрукты</td></tr>
+<tr><td>胡萝卜</td><td>Морковь</td><td>苹果</td><td>Яблоко</td></tr>
+<tr><td>西兰花</td><td>Брокколи</td><td>香蕉</td><td>Банан</td></tr>
+<tr><td>花菜</td><td>Цветная капуста</td><td>橙子</td><td>Апельсин</td></tr>
+<tr><td>青椒</td><td>Зеленый перец</td><td>葡萄</td><td>Виноград</td></tr>
+<tr><td>土豆</td><td>Картофель</td><td>草莓</td><td>Клубника</td></tr>
+<tr><td>番茄</td><td>Помидор</td><td>蓝莓</td><td>Голубика</td></tr>
+<tr><td>黄瓜</td><td>Огурец</td><td>车厘子、樱桃</td><td>Вишня</td></tr>
+<tr><td>生菜</td><td>Салат-латук</td><td>柚子</td><td>Грейпфрут</td></tr>
+<tr><td>洋葱</td><td>Лук</td><td>桃子</td><td>Персик</td></tr>
+<tr><td>蒜</td><td>Чеснок</td><td>梨</td><td>Груша</td></tr>
+<tr><td>菠菜</td><td>Шпинат</td><td>榴莲</td><td>Дуриан</td></tr>
+<tr><td>南瓜</td><td>Тыква</td><td>柿子</td><td>Хурма</td></tr>
+<tr><td>芹菜</td><td>Сельдерей</td><td>杏</td><td>Абрикос</td></tr>
+<tr><td>苦瓜</td><td>Горькая дыня</td><td>柠檬</td><td>лимон</td></tr>
+<tr><td>青豆</td><td>Зеленая фасоль</td></tr>
+<tr><td>茄子</td><td>Баклажаны</td></tr>
+<tr><td>蘑菇</td><td>Грибы</td></tr>
+<tr><td>红薯</td><td>Сладкий картофель</td></tr>
+<tr><td>西瓜</td><td>Арбуз</td></tr>
+</table>
+
+<div id="gotop"><a class="gotop"></a></div>
+<iframe src="footer.html" frameborder="0" width="100%" height="220px"></iframe>
+
+
+
+<script src="../js/scripts.js"></script>
+</body>
+</html>
